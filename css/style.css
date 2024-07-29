@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.form-cymetria{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-cymetria form{
+    max-width: 700px; 
+    margin: 0;
+}
+
+#nombre-input, 
+#correo-input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #CCCCCC;
+}
+
+#nombre-input:focus,
+#correo-input:focus{ 
+    border: 2px solid #5D5FEF;
+    outline: none;
+}
+
+.curso1 input{
+    margin: 0.4rem;
+}
+
+fieldset{
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.lengueje1 input{
+    margin: 0.4rem;
+}
+
+.btn-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.btn-enviar button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #5D5FEF;
+    background-color: #5D5FEF;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-reset button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid #5D5FEF;
+    color: #5D5FEF;
+}
+
